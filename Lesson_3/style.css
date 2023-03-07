@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	background: #FFFFFF;
+}
+
+img {
+	display: block; /*оборачивает картинку в блок*/
+	max-width: 100%;
+}
+
+.container {
+	margin: 0 auto;
+    width: 1170px; /*ширина контейнера*/
+}
+
+header {
+    margin-bottom: 84px;
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+section {
+    margin-bottom: 162px;
+}
+
+h1, .logo a, button, p {
+	font-style: normal;
+	
+}
+
+h1, button {
+	font-family: 'Gilroy-Bold';
+}
+
+p, .orange a {
+    font-family: 'Gilroy-Medium';
+}
+
+h1 {
+    margin-bottom: 17px;
+}
+
+p {
+    color: #888888;
+    size: 20px;
+    line-height: 23.44px;
+    margin-bottom: 37px;
+}
+
+.main {
+    margin-bottom: 162px;
+}
+
+.content-text h1 {
+    margin-bottom: 17px;
+}
+
+.main-content p {
+    margin-bottom: 37px;
+}
+
+.logos {
+    padding: 97px 375px 96px 345px;
+}
+
+.menubar a {
+    font-family: 'Gilroy-SemiBold';
+    padding-top: 11px;
+    padding-bottom: 12px;
+}
+
+.orbtn {
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 35px;
+    padding-right: 36px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    color: #FFFFFF;
+    margin-right: 72px;
+}
+
+.nobtn {
+    padding: 0 px;
+    font-size: 15px;
+    line-height: 18px;
+    border: none;
+    background: none;
+    border-radius: none;
+    color: #AAAAAA;
+    cursor: pointer; /*при наведении курсор меняется на кликабельную руку*/
+    outline: none; /*чтобы не было рамки при нажатии*/
+}
+
+.orange {
+    color:#F25822;
+}
+
+.menubar {
+    size: 14px;
+    line-height: 16.41px;
+    color: #000000
+}
