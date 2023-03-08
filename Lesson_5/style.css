@@ -124,6 +124,7 @@ button {
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
+    border: none;
     color: #FFFFFF;
     margin-right: 72px;
     width: 155px;
@@ -250,7 +251,9 @@ select {
 
 .text-about h3 {
     margin-bottom: 22px;
+    /*margin-top: 25px;*/
     margin-left: 53px;
+    
     font-size: 24px;
     text-align: center;
     width: 208px;
@@ -276,7 +279,12 @@ select {
 
 }
 
-.container .text-card {
+.backgr {
     background: #FAFAFA;
+    /*width: 1920px;*/
     
+}
+
+.text-card {
+    padding-top: 92px;
 }
